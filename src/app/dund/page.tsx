@@ -73,7 +73,7 @@ const Dund = () => {
             onClick={handleDund8a}
           >
             <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-              8a
+              9a
             </button>
           </div>
 
@@ -82,7 +82,7 @@ const Dund = () => {
             onClick={handleDund8b}
           >
             <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-              8b
+              9b
             </button>
           </div>
           <div
@@ -90,7 +90,7 @@ const Dund = () => {
             onClick={handleDund7a}
           >
             <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-              7a
+              8a
             </button>
           </div>
           <div
@@ -98,7 +98,7 @@ const Dund = () => {
               onClick={handleDund7b}
             >
               <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-                7b
+                8b
               </button>
             </div>
             <div
@@ -106,7 +106,7 @@ const Dund = () => {
               onClick={handleDund6a}
             >
               <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-                6a
+                7a
               </button>
             </div>
             <div
@@ -114,7 +114,7 @@ const Dund = () => {
               onClick={handleDund6b}
             >
               <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-                6b
+                7b
               </button>
             </div>
         </div>
@@ -129,7 +129,7 @@ const Dund = () => {
               onClick={handleDund6c}
             >
               <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-                6c
+                7c
               </button>
             </div>
             <div
@@ -137,7 +137,7 @@ const Dund = () => {
             onClick={handleBaga5a}
           >
             <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-              5a
+              6a
             </button>
           </div>
           <div
@@ -145,7 +145,7 @@ const Dund = () => {
             onClick={handleBaga5b}
           >
             <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-              5b
+              6b
             </button>
           </div>
           <div
@@ -153,18 +153,11 @@ const Dund = () => {
             onClick={handleBaga5c}
           >
             <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-              5c
+              6c
             </button>
           </div>
 
-          <div
-            className=" p-5 bg-[#222f6e] text-white rounded-lg cursor-pointer hover:bg-[#4054ba]"
-            onClick={handleBaga5d}
-          >
-            <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-              5d
-            </button>
-          </div>
+       
           </div>
         </div>
       </div>

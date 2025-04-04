@@ -36,7 +36,7 @@ const Dund5c = () => {
       <div className=" flex  flex-col gap-4">
 
       <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
-          <p className=" text-center font-semibold text-lg">  С.Адъяасүрэн багштай 5С ангийн 2023-2024 оны хичээлийн жилийн амжилтууд</p>
+          <p className=" text-center font-semibold text-lg">  Тамираа багштай 6С ангийн 2023-2024 оны хичээлийн жилийн амжилтууд</p>
         </div>
 
         <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">

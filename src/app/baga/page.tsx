@@ -83,7 +83,7 @@ const Baga = () => {
             onClick={handleBaga4a}
           >
             <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-              4a
+              5a
             </button>
           </div>
           <div
@@ -91,7 +91,7 @@ const Baga = () => {
             onClick={handleBaga4b}
           >
             <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-              4b
+              5b
             </button>
           </div>
           <div
@@ -99,13 +99,13 @@ const Baga = () => {
             onClick={handleBaga4c}
           >
             <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-              4c
+              5c
             </button>
           </div>
           <div
               className=" p-5 bg-[#222f6e] text-white rounded-lg cursor-pointer hover:bg-[#4054ba]" onClick={handleBaga4d}>
               <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-                4d
+                5d
               </button>
             </div>
             <div
@@ -113,7 +113,7 @@ const Baga = () => {
               onClick={handleBaga3a}
             >
               <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-                3a
+                4a
               </button>
             </div>
         </div>
@@ -126,7 +126,7 @@ const Baga = () => {
               onClick={handleBaga3b}
             >
               <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-                3b
+                4b
               </button>
             </div>
 
@@ -135,7 +135,7 @@ const Baga = () => {
               onClick={handleBaga3c}
             >
               <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-                3c
+                4c
               </button>
             </div>
 
@@ -144,7 +144,7 @@ const Baga = () => {
               onClick={handleBaga2a}
             >
               <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-                2a
+                3a
               </button>
             </div>
 
@@ -153,7 +153,7 @@ const Baga = () => {
               onClick={handleBaga2b}
             >
               <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-                2b
+                3b
               </button>
             </div>
             <div
@@ -161,7 +161,7 @@ const Baga = () => {
               onClick={handleBaga2c}
             >
               <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-                2c
+                3c
               </button>
             </div>
           </div>
@@ -175,7 +175,7 @@ const Baga = () => {
               onClick={handleBaga2d}
             >
               <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-                2d
+                3d
               </button>
             </div>
             <div
@@ -183,7 +183,7 @@ const Baga = () => {
               onClick={handleBaga1a}
             >
               <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-                1a
+                2a
               </button>
             </div>
 
@@ -192,7 +192,7 @@ const Baga = () => {
               onClick={handleBaga1b}
             >
               <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-                1b
+                2b
               </button>
             </div>
 
@@ -201,17 +201,10 @@ const Baga = () => {
               onClick={handleBaga1c}
             >
               <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-                1c
+                2c
               </button>
             </div>
-            <div
-              className=" p-5 bg-[#222f6e] text-white rounded-lg cursor-pointer hover:bg-[#4054ba]"
-              onClick={handleBaga1d}
-            >
-              <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-                1d
-              </button>
-            </div>
+      
           </div>
         </div>
 

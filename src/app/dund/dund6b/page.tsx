@@ -39,7 +39,7 @@ const Dund6b = () => {
         <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
           <p className=" text-center font-semibold text-lg">
             {" "}
-            Шилдэг ерөнхий боловсролын сургуулийн 6В ангийн танилцуулга
+            Шилдэг ерөнхий боловсролын сургуулийн Содномцэрэн багштай 7В ангийн танилцуулга
           </p>
           <div className=" flex flex-col gap-2  items-center ">
             <Image

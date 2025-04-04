@@ -49,28 +49,14 @@ const Ahlah = () => {
         />
       </div>
       <div className=" flex flex-col gap-5 w-40">
-        <div
-          className=" p-5 bg-[#222f6e] text-white rounded-lg cursor-pointer hover:bg-[#4054ba]"
-          onClick={handlePushAhlah12a}
-        >
-          <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-            12A
-          </button>
-        </div>
-        <div
-          className=" p-5 bg-[#222f6e] text-white rounded-lg cursor-pointer hover:bg-[#4054ba]"
-          onClick={handlePushAhlah12b}
-        >
-          <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-            12B
-          </button>
-        </div>
+    
+       
         <div
           className=" p-5 bg-[#222f6e] text-white rounded-lg cursor-pointer hover:bg-[#4054ba]"
           onClick={handlePushAhlah11a}
         >
           <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-            11A
+            12A
           </button>
         </div>
 
@@ -79,7 +65,7 @@ const Ahlah = () => {
           onClick={handlePushAhlah11b}
         >
           <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-            11B
+            12B
           </button>
         </div>
         <div
@@ -87,7 +73,7 @@ const Ahlah = () => {
           onClick={handlePushAhlah10a}
         >
           <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-            10A
+            11A
           </button>
         </div>
 
@@ -96,7 +82,7 @@ const Ahlah = () => {
           onClick={handleDund9a}
         >
           <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-            9a
+            10a
           </button>
         </div>
         <div
@@ -104,7 +90,7 @@ const Ahlah = () => {
           onClick={handleDund9b}
         >
           <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-            9b
+          10b
           </button>
         </div>
       </div>

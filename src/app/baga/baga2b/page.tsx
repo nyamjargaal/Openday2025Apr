@@ -30,7 +30,7 @@ const Baga2b = () => {
       <Image src={shildeg} width={200}  alt="Шилдэг сургууль" onClick={handleHomePage} />
       <div className=" flex  flex-col gap-4">
 
-      <p className="text-center border-b pb-2 text-[20px] font-semibold"> 2В ангийн танилцуулга </p>
+      <p className="text-center border-b pb-2 text-[20px] font-semibold"> Хажидмаа багштай 3В ангийн танилцуулга </p>
         <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
           <p className=" text-center font-semibold text-lg"> Охид – 11, хөвгүүд- 10 </p>
           <div className=" flex flex-col gap-2 ">
