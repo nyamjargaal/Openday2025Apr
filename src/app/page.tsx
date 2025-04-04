@@ -40,7 +40,7 @@ export default function Home() {
           onClick={handleHomePage}
         />
         <h1 className=" font-extrabold text-2xl text-[#ed1c24] text-center">
-          Хаврын тайлант өдөрлөг 2023-2024
+          Open Day 2024 - 2025
         </h1>
       </div>
       <div className=" flex gap-4 flex-col">
