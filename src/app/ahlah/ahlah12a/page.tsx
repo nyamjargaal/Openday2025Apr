@@ -13,6 +13,7 @@ import zurag13 from "../../../assets/12A/13.png";
 import zurag14 from "../../../assets/12A/14.png";
 import zurag15 from "../../../assets/12A/15.png";
 import zurag16 from "../../../assets/12A/16.png";
+import zurag17 from "../../../assets/12A/17.png";
 import Image from "next/image";
 import shildeg from "../../../assets/shildeg.png";
 import { useRouter } from "next/navigation";
@@ -81,6 +82,22 @@ const Ahlah12a = () => {
             <Image className=" rounded-xl"  src={zurag3}  width={300} alt="Шилдэг сургууль" />
             <p className=" mt-1 text-center"> National Championship of MuayThai 3rd Place 2025</p>
             <p className=" mt-1 text-center"> National Championship of Kickboxing 3rd place 2025</p>
+          </div>
+        </div>
+
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <p className=" text-center">С.Нандин-эрдэнэ</p>
+          <div className=" flex flex-col gap-2 items-center">
+            <Image className=" rounded-xl"  src={zurag17}  width={300} alt="Шилдэг сургууль" />
+            <p className=" mt-1 text-center"> IELTS 7.5 оноо</p>
+            <p className=" mt-1 text-center">Canada-University of Toronto 100% тэтгэлэг - 332,224CAD</p>
+            <p className=" mt-1 text-center">EducationUSA Competitive College club graduate of 2024-2025</p>
+            <p className=" mt-1 text-center">2024- оны тэргүүний сурагч</p>
+            <p className=" mt-1 text-center">Сургуулийн П тоог хэн сайн цээжлэх вэ уралдаан 1-р байр</p>
+            <p className=" mt-1 text-center">Interact club 2024-2025 vice president</p>
+            <p className=" mt-1 text-center">Bubble Scent (Soap making club)- 2024-2025- founder</p>
+            <p className=" mt-1 text-center"> Сургуулийн мэтгэлцээний тэмцээн  2r байр </p>
+            <p className=" mt-1 text-center"> 72 цаг volunteer </p>
           </div>
         </div>
 
