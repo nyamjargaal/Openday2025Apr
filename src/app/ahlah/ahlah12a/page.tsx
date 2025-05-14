@@ -1,10 +1,10 @@
 "use client";
-import zurag1 from "../../../assets/12A/1.jpg";
-import zurag2 from "../../../assets/12A/2.jpg";
-import zurag3 from "../../../assets/12A/3.jpg";
-import zurag4 from "../../../assets/12A/4.jpg";
-import zurag7 from "../../../assets/12A/7.jpg";
-import zurag8 from "../../../assets/12A/8.jpg";
+import zurag1 from "../../../assets/12A/1.png";
+import zurag2 from "../../../assets/12A/2.png";
+import zurag3 from "../../../assets/12A/3.png";
+import zurag4 from "../../../assets/12A/4.png";
+import zurag7 from "../../../assets/12A/7.png";
+import zurag8 from "../../../assets/12A/8.jpg"; 
 import zurag9 from "../../../assets/12A/9.jpg";
 import zurag10 from "../../../assets/12A/10.jpg";
 import zurag11 from "../../../assets/12A/11.jpg";
