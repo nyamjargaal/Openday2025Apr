@@ -4,16 +4,9 @@ import { useRouter } from "next/navigation";
 import shildeg from "../../assets/shildeg.png";
 import Image from "next/image";
 import { BackArrow } from "@/assets/icons/backArrow";
+
 const Ahlah = () => {
   const router = useRouter();
-
-  const handleDund9a = () => {
-    router.push("/ahlah/ahlah9a");
-  };
-
-  const handleDund9b = () => {
-    router.push("/ahlah/ahlah9b");
-  };
 
   const handlePushAhlah10a = () => {
     router.push("/ahlah/ahlah10a");
@@ -23,8 +16,8 @@ const Ahlah = () => {
     router.push("/ahlah/ahlah11a");
   };
 
-  const handlePushAhlah11b = () => {
-    router.push("/ahlah/ahlah11b");
+  const handlePushAhlah10b = () => {
+    router.push("/ahlah/ahlah10b");
   };
 
   const handlePushAhlah12a = () => {
@@ -38,6 +31,7 @@ const Ahlah = () => {
   const handleHomePage = () => {
     router.push("/");
   };
+
   return (
     <div className=" flex flex-col w-screen h-screen items-center p-8 gap-8">
       <div className=" flex flex-col gap-6  items-center">
@@ -53,7 +47,7 @@ const Ahlah = () => {
        
         <div
           className=" p-5 bg-[#222f6e] text-white rounded-lg cursor-pointer hover:bg-[#4054ba]"
-          onClick={handlePushAhlah11a}
+          onClick={handlePushAhlah12a}
         >
           <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
             12A
@@ -62,7 +56,7 @@ const Ahlah = () => {
 
         <div
           className=" p-5 bg-[#222f6e] text-white rounded-lg cursor-pointer hover:bg-[#4054ba]"
-          onClick={handlePushAhlah11b}
+          onClick={handlePushAhlah12b}
         >
           <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
             12B
@@ -70,7 +64,7 @@ const Ahlah = () => {
         </div>
         <div
           className=" p-5 bg-[#222f6e] text-white rounded-lg cursor-pointer hover:bg-[#4054ba]"
-          onClick={handlePushAhlah10a}
+          onClick={handlePushAhlah11a}
         >
           <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
             11A
@@ -79,7 +73,7 @@ const Ahlah = () => {
 
         <div
           className=" p-5 bg-[#222f6e] text-white rounded-lg cursor-pointer hover:bg-[#4054ba]"
-          onClick={handleDund9a}
+          onClick={handlePushAhlah10a}
         >
           <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
             10a
@@ -87,7 +81,7 @@ const Ahlah = () => {
         </div>
         <div
           className=" p-5 bg-[#222f6e] text-white rounded-lg cursor-pointer hover:bg-[#4054ba]"
-          onClick={handleDund9b}
+          onClick={handlePushAhlah10b}
         >
           <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
           10b

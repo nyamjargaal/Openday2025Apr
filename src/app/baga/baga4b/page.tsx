@@ -30,7 +30,7 @@ const Baga4b = () => {
       <Image src={shildeg} width={200}  alt="Шилдэг сургууль" onClick={handleHomePage} />
       <div className=" flex  flex-col gap-4">
       <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
-          <p className=" text-center font-semibold text-lg">Ш. Цасчихэр багштай 4В анги нь 2022-2023 оны хичээлийн жилийн амжилтууд
+          <p className=" text-center font-semibold text-lg">Ш. Цасчихэр багштай 5В анги нь 2022-2023 оны хичээлийн жилийн амжилтууд
 </p>
         </div>
 

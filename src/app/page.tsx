@@ -40,16 +40,16 @@ export default function Home() {
           onClick={handleHomePage}
         />
         <h1 className=" font-extrabold text-2xl text-[#ed1c24] text-center">
-          Open Day 2024 - 2025
+          2024 - 2025 оны хичээлийн жил
         </h1>
       </div>
       <div className=" flex gap-4 flex-col">
         <div
           className=" p-5 bg-[#222f6e] text-white rounded-lg cursor-pointer hover:bg-[#4054ba]"
-          onClick={handlePushBaga}
+          onClick={handlePushAhlah}
         >
           <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-            Бага Бүлэг
+            Ахлах Бүлэг
           </button>
         </div>
         <div
@@ -60,13 +60,12 @@ export default function Home() {
             Дунд Бүлэг
           </button>
         </div>
-
         <div
           className=" p-5 bg-[#222f6e] text-white rounded-lg cursor-pointer hover:bg-[#4054ba]"
-          onClick={handlePushAhlah}
+          onClick={handlePushBaga}
         >
           <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-            Ахлах Бүлэг
+            Бага Бүлэг
           </button>
         </div>
 
