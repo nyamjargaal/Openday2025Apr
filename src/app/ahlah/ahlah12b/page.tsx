@@ -3,276 +3,185 @@ import Image from "next/image";
 import shildeg from "../../../assets/shildeg.png";
 import { useRouter } from "next/navigation";
 import { BackArrow } from "@/assets/icons/backArrow";
-import zurag1 from "../../../assets/12B/1.jpg"
-import zurag2 from "../../../assets/12B/2.jpg"
-import zurag3 from "../../../assets/12B/3.jpg"
-import zurag4 from "../../../assets/12B/4.jpg"
-import zurag5 from "../../../assets/12B/5.jpg"
-import zurag6 from "../../../assets/12B/6.jpg"
-import zurag7 from "../../../assets/12B/7.jpg"
-import zurag8 from "../../../assets/12B/8.jpg"
-import zurag9 from "../../../assets/12B/9.jpg"
-import zurag10 from "../../../assets/12B/10.jpg"
-import zurag11 from "../../../assets/12B/11.jpg"
-import zurag12 from "../../../assets/12B/12.jpg"
-import zurag13 from "../../../assets/12B/13.jpg"
-import zurag14 from "../../../assets/12B/14.jpg"
-import zurag15 from "../../../assets/12B/15.jpg"
-import zurag16 from "../../../assets/12B/16.png"
-import zurag17 from "../../../assets/12B/17.png"
-import zurag18 from "../../../assets/12B/18.jpg"
-import zurag19 from "../../../assets/12B/19.jpg"
-import zurag20 from "../../../assets/12B/20.jpg"
-import zurag21 from "../../../assets/12B/21.png"
-import zurag22 from "../../../assets/12B/22.jpg"
-import zurag23 from "../../../assets/12B/23.png"
-import zurag24 from "../../../assets/12B/24.jpg"
-import zurag25 from "../../../assets/12B/25.png"
-import zurag26 from "../../../assets/12B/26.jpg"
-import zurag27 from "../../../assets/12B/27.jpg"
-import zurag28 from "../../../assets/12B/28.jpg"
-import zurag29 from "../../../assets/12B/29.jpg"
-import zurag30 from "../../../assets/12B/30.png"
-import zurag31 from "../../../assets/12B/31.jpg"
-import zurag32 from "../../../assets/12B/32.jpg"
-import zurag33 from "../../../assets/12B/33.jpg"
-import zurag34 from "../../../assets/12B/34.jpg"
-import zurag35 from "../../../assets/12B/35.jpg"
-import zurag36 from "../../../assets/12B/36.jpg"
-import zurag from "../../../assets/12B/31.png"
-const Ahlah11b = () => {
+import zurag0 from "../../../assets/12B/0.png";
+import zurag1 from "../../../assets/12B/1.png";
+import zurag2 from "../../../assets/12B/2.png";
+import zurag3 from "../../../assets/12B/3.png";
+import zurag4 from "../../../assets/12B/4.png";
+import zurag5 from "../../../assets/12B/5.png";
+import zurag6 from "../../../assets/12B/6.png";
+import zurag7 from "../../../assets/12B/7.png";
+import zurag8 from "../../../assets/12B/8.png";
+import zurag9 from "../../../assets/12B/9.png";
+import zurag10 from "../../../assets/12B/10.png";
+import zurag11 from "../../../assets/12B/11.png";
+import zurag12 from "../../../assets/12B/12.png";
+import zurag13 from "../../../assets/12B/13.png";
+import zurag14 from "../../../assets/12B/14.png";
 
+const Ahlah12b = () => {
   const router = useRouter();
-
-  const handleHomePage = () => {
-    router.push("/");
-  };
-
-  const handleAhlah = () => {
-    router.push("/ahlah");
-  };
+  const handleHomePage = () => { router.push("/");};
+  const handleAhlah = () => { router.push("/ahlah");};
 
   return (
-    <div className=" flex flex-col w-screen h-screen items-center p-4 gap-5">
-      <Image src={shildeg} width={200}  alt="Шилдэг сургууль" onClick={handleHomePage} />
-      <div className=" flex  flex-col gap-4">
-
-      <h1 className=" font-bold text-center border-b pb-2 text-[22px] text-red-600"> С.Дуламдорж багштай 12B анги
-      </h1>
+    <div className="flex flex-col w-screen h-screen items-center p-4 gap-5">
+      <Image src={shildeg} width={200} alt="Шилдэг сургууль" onClick={handleHomePage} />
+      <div className="flex flex-col gap-4">
+        <h1 className="font-bold text-center border-b pb-2 text-[22px] text-red-600">С.Дуламдорж багштай 12B ангийн танилцуулга</h1>
+        <div className="flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <p className="text-center">12B анги нийт 22 суралцагчтай ба 10 эрэгтэй, 12 эмэгтэй</p>
+          <p className="text-center">Ангийн дарга Б.Эрдэнэбулган </p>
+          <Image className=" rounded-xl" src={zurag0} width={300} alt="Шилдэг сургууль" />
+          <p className="text-center">
+            Ангийн нийт сурагчид хичээл сурлага төдийгүй урлаг, спортын өндөр
+            авьяастай, хүмүүжил төлөвшил сайтай сурагчид юм. Анги болон
+            сургуулиас зохион байгуулсан аливаа уралдаан тэмцээн, үйл
+            ажиллагаанд идэвхтэй сайн оролцдог сургуулийн шилдэг анги хамт олны
+            нэг билээ
+          </p>
+        </div>
+        <p className="text-center border-b pb-2 text-[20px] font-semibold">Сургуулийн спортын наадам</p>
         <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
-          <p className=" font-semibold text-lg"> 2023-2024 оны хичээлийн жилд нийт 22 сурагчтай хичээл сургалтын үйл ажиллагааг явуулж байна.  </p>
-          <p className=" text-center font-semibold text-lg"> 9 хүү, 13 охин </p>
-          <Image className=" rounded-xl" src={zurag1} width={300}alt="Шилдэг сургууль" />
+          <div className=" flex flex-col gap-2 ">
+            <Image className=" rounded-xl" src={zurag1} width={300} alt="Шилдэг сургууль"/>
+          </div>
+            <p className="border-b pb-2 text-[20px] font-semibold"> Эрэгтэй </p>
+            <p className="text-center  text-[20px] font-semibold text-blue-800"> Байрнаас уртын харайлт </p>
+            <p className="text-center text-[20px] font-semibold"> Эрэгтэй төрөлд хүрэл медаль – Э.Амартүвшин </p>
+            <p className="text-center text-[20px] font-semibold"> Эмэгтэй төрөлд алтан медаль  - О.Баярмаа</p>
+            <p className="text-center text-[20px] font-semibold text-blue-800">Гар дээр суниалт </p>
+            <p className="text-center text-[20px] font-semibold"> Эрэгтэй төрөлд мөнгөн медаль – Б.Эрдэнэбулган </p>
+            <p className="text-center text-[20px] font-semibold"> Эмэгтэй төрөлд алтан медаль – Т.Эмүүжин </p>
+            <p className="text-center text-[20px] font-semibold text-blue-800">Гар дээр суниалт </p>
+            <p className="text-center text-[20px] font-semibold"> Эрэгтэй төрөлд мөнгөн медаль – Б.Эрдэнэбулган </p>
+            <p className="text-center text-[20px] font-semibold"> Эмэгтэй төрөлд алтан медаль – Т.Эмүүжин </p>
+            <Image className=" rounded-xl" src={zurag2} width={300} alt="Шилдэг сургууль"/>
+            <p className="text-center text-[20px] font-semibold text-blue-800">Олс таталт </p>
+            <p className="text-center text-[20px] font-semibold">2-р байр мөнгөн медаль </p>
+            <p className="text-center text-[20px] font-semibold text-blue-800">4x4 буухаа </p>
+            <p className="text-center text-[20px] font-semibold">эмэгтэй мөнгөн медаль – Б.Мөнхчимэг, О.Баярмаа, Т.Эмүүжин, Б.Дөлгөөн</p>
+            <p className="text-center text-[20px] font-semibold text-blue-800">800 м гүйлт </p>
+            <p className="text-center text-[20px] font-semibold">Эрэгтэй төрөлд хүрэл медаль – – Б.Өнөболд</p>
+            <p className="text-center text-[20px] font-semibold"> Эмэгтэй төрөлд хүрэл медаль – Т. Эмүүжин</p>
+            <p className="text-center text-[20px] font-semibold text-blue-800">100м гүйлт </p>
+            <p className="text-center text-[20px] font-semibold">Эрэгтэй төрөлд мөнгө медаль – Х.Хангарьд</p>
+            <p className="text-center text-[20px] font-semibold">Эмэгтэй төрөлд мөнгөн медаль – О.Баярмаа</p>
+            <p className="text-center text-[20px] font-semibold text-blue-800">3х3 сагсан бөмбөгийн тэмцээнд  </p>
+            <p className="text-center text-[20px] font-semibold">Эрэгтэй баг хүрэл медаль – Б.Билэгсайхан, Х.Хангарьд, Б.Өнөболд</p>
+            <p className="text-center text-[20px] font-semibold">Эмэгтэй баг мөнгөн медаль – О.Ундармаа, О.Баярмаа, Жинжиймаа</p>
+            <h1 className=" font-bold text-center border-b pb-2 text-[22px] text-red-600">Багийн нийлбэр дүнгээр 2-р байр эзэлсэн</h1>
         </div>
 
+        <p className="text-center border-b pb-2 text-[20px] font-semibold">Урлагийн наадам</p>
         <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
-          <p className=" text-center font-semibold text-lg"> "Намрын спортын их наадам" </p>
-          <div className=" flex flex-col gap-2 ">
-            <Image className=" rounded-xl" src={zurag2} width={300} alt="Шилдэг сургууль" />
-            <Image className=" rounded-xl" src={zurag3} width={300} alt="Шилдэг сургууль"/>
-            <p className=" text-center text-[12px]">Ахлах анги олс таталтын төрөлд – Мөнгөн медаль</p>
-            <Image className=" rounded-xl" src={zurag4} width={300} alt="Шилдэг сургууль"/>
-            <p className=" text-center text-[12px]">400м эмэгтэй төрөлд Т.Эмүүжин - Алтан медаль</p>
+          <div className=" flex flex-col gap-2  items-center">
+            <Image className=" rounded-xl" src={zurag3} width={300} alt="Шилдэг сургууль" />
+            <p className=" text-center text-[12px]"> Гоцлол хөгжим төрөлд хүрэл медаль – Б.Төгөлдөр</p>
+            <p className=" text-center text-[12px]"> Чөлөөт үзүүлбэр хүрэл медаль – Ангиараа </p>
           </div>
         </div>
 
+        <p className="text-center border-b pb-2 text-[20px] font-semibold">Монгол бахархлын 7 хоногийн хүрээнд зохион байгуулагдсан МНТ-г хэн сайн мэдэх вэ ? 50 саяын уналт тэмцээнд </p>
         <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
-          <p className=" text-center font-semibold text-lg"> “Урлагийн наадам"  </p>
+          <div className=" flex flex-col gap-2  items-center">
+            <Image className=" rounded-xl" src={zurag4} width={300} alt="Шилдэг сургууль" />
+            <p className=" text-center text-[12px]">Эрдэнэбулган, Баярмаа, Эмүүжин нар амжилттай оролцож тэргүүн байр эзэлсэн</p>
+          </div>
+        </div>
+
+        <p className="text-center border-b pb-2 text-[20px] font-semibold">Баянзүрх дүүргийн төрөлжсөн олимпиад </p>
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
           <div className=" flex flex-col gap-2  items-center">
             <Image className=" rounded-xl" src={zurag5} width={300} alt="Шилдэг сургууль" />
-            <p className=" text-center text-[12px]">Гоцлол хөгжим төрөлд – Б.Төгөлдөр 1-р байр “Алтан медаль”</p>
-            <p className=" text-center text-[12px]">Гоцлол бүжиг – Л.Энхзул 2-р байр “Мөнгөн медаль”</p>
-            <p className=" text-center text-[12px]">Найрал дуу – 3-р байр “Хүрэл медаль”</p>
-            <Image className=" rounded-xl" src={zurag6} width={300} alt="Шилдэг сургууль"/>
-            <p className=" text-center text-[12px]">Чөлөөт үзүүлбэр – 2-р байр “Мөнгөн медаль”</p>
-            <p className=" text-center text-[12px]">Нийлбэр дүнгээр 2-р байр
-</p>
-            <Image className=" rounded-xl" src={zurag7} width={300} alt="Шилдэг сургууль"/>
-            <p className=" text-center text-[12px]">Гоцлол дуу – Маралжингоо 3-р байр “Хүрэл медаль”
-</p>
+            <p className="text-center text-[20px] font-semibold text-blue-800">Нийгмийн ухааны олимпиадад</p>
+            <p className=" text-center text-[12px]">Б.Хулан 1-р байр – алтан медаль</p>
+            <p className=" text-center text-[12px]">Б.Эрдэнэбулган – тусгай байр </p>
+            <p className=" text-center text-[12px]">Б.Аззаяа – тусгай байр </p>
+            <Image className=" rounded-xl" src={zurag6} width={300} alt="Шилдэг сургууль" />
+            <p className="text-center text-[20px] font-semibold text-blue-800">Орос хэлний олимпиад  </p>
+            <p className=" text-center text-[12px]">Б.Аззаяа – 1-р байр алтан медаль </p>
+            <Image className=" rounded-xl" src={zurag7} width={300} alt="Шилдэг сургууль" />
+            <p className="text-center text-[20px] font-semibold text-blue-800">Физикийн олимпиад </p>
+            <p className=" text-center text-[12px]">Б.Эрдэнэбулган тусгай байр </p>
           </div>
         </div>
+       
 
-
+        <p className="text-center border-b pb-2 text-[20px] font-semibold">Сургуулийн оны шилдэг сурагч</p>
         <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
-          <p className=" text-center font-semibold text-lg">“САШ Сагсан бөмбөгийн тэмцээн" </p>
-          <div className=" flex flex-col gap-2 items-center ">
+          <div className=" flex flex-col gap-2  items-center">
             <Image className=" rounded-xl" src={zurag8} width={300} alt="Шилдэг сургууль" />
-            <Image className=" rounded-xl" src={zurag9} width={300} alt="Шилдэг сургууль"/>
-            <p className=" text-center text-[12px]">Ахлах анги эмэгтэй – 2-р байр “Мөнгөн медаль”
-</p>
-            <Image className=" rounded-xl" src={zurag10} width={300} alt="Шилдэг сургууль"/>
-            <p className=" text-center text-[12px]">Ахлах анги эрэгтэй – 2-р байр “Мөнгөн медаль”</p>
+            <p className=" text-center text-[12px]">Б.Хулан, Б.Эрдэнбулган нар оны шилдэг сурагч шагналыг хүртлээ</p> 
           </div>
         </div>
 
 
+        <p className="text-center border-b pb-2 text-[20px] font-semibold">Сургуулийн аварга шалгаруулах сагсан бөмбөгийн тэмцээн </p>
         <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
-          <p className=" text-center font-semibold text-lg">“Төгсөгчдийн нэрэмжит волейболын тэмцээн" </p>
-          <div className=" flex flex-col gap-2 items-center ">
-            <Image className=" rounded-xl" src={zurag11} width={300} alt="Шилдэг сургууль"/>
-            <p className=" text-center text-[12px]">2024 оны төгсөгчдийн нэрэмжит гар бөмбөгийн тэмцээнд 2 баг гарган амжилттай оролцож 11В 2-р баг “Хүрэл медаль” хүртлээ. 
-</p>
+          <div className=" flex flex-col gap-2  items-center">
+            <Image className=" rounded-xl" src={zurag9} width={300} alt="Шилдэг сургууль" />
+            <p className=" text-center text-[12px]">Эрэгтэй баг – мөнгөн медаль </p>
+            <Image className=" rounded-xl" src={zurag10} width={300} alt="Шилдэг сургууль" />
+            <p className=" text-center text-[12px]">Эмэгтэй баг – алтан медаль</p>
+            <Image className=" rounded-xl" src={zurag11} width={300} alt="Шилдэг сургууль" />
+            <p className="text-center text-[20px] font-semibold text-blue-800">Шилдэг эмэгтэй тоглогчоор О.Ундармаа </p>
+            <h1 className=" font-bold text-center border-b pb-2 text-[22px] text-red-600">Багийн нийлбэр дүнгээр 1- р байр эзэлж шилжин явах цомын эзэд боллоо</h1>
           </div>
         </div>
 
+        <p className="text-center border-b pb-2 text-[20px] font-semibold">Пи тооны өдөр – Математикийн 7 хоног </p>
         <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
-          <p className=" text-center font-semibold text-lg">“ОУ-ын болон дотоодын олимпиад уралдаанд гаргасан амжилтаас"  </p>
-          <div className=" flex flex-col gap-2 items-center ">
-            <Image className=" rounded-xl" src={zurag12} width={300} alt="Шилдэг сургууль"/>
-            <p className=" text-center text-[12px]">Өмнөговь аймаг Даланзадгад хотноо зохион байгуулагдсан “Нүүдэлчин Дайчин Cup 2024” таеквондогийн цомын тэмцээнд амжилттай оролцож “Алтан медаль”🥇</p>
-            <Image className=" rounded-xl" src={zurag13} width={300} alt="Шилдэг сургууль"/>
-            <p className=" text-center text-[12px]">✨🤺Fencing сонирхогчдын нээлтэй тэмцээн 🥉-р байр “Хүрэл медаль” 
-2023 оны Сонирхогчдын УАШ тэмцээнд амжилттай оролцож эмэгтэй төрөлд 🥉байр  “Хүрэл медаль”
-</p></div> </div>
+          <div className=" flex flex-col gap-2  items-center">
+            <Image className=" rounded-xl" src={zurag12} width={300} alt="Шилдэг сургууль" />
+            <p className="text-center text-[20px] font-semibold text-blue-800">Пи тоог цээжээр хэн сайн мэдэх вэ ?</p>
+            <p className=" text-center text-[12px]">Б.Эрдэнэбулган  2-р байр </p>
+            <p className=" text-center text-[12px]">Б.Төгөлдөр 3-р байр </p>
+            <p className="text-center text-[20px] font-semibold text-blue-800">Математикийн үг <br /> хэллэгийг англиар хэн сайн мэдэх вэ? </p>
+            <p className=" text-center text-[12px]">Амартүвшин 3- р байр </p>
+            <Image className=" rounded-xl" src={zurag10} width={300} alt="Шилдэг сургууль" />
+            <p className=" text-center text-[12px]">Эмэгтэй баг – алтан медаль</p>
+            <Image className=" rounded-xl" src={zurag11} width={300} alt="Шилдэг сургууль" />
+            <p className="text-center text-[20px] font-semibold text-blue-800">Шилдэг эмэгтэй тоглогчоор О.Ундармаа </p>
+            <h1 className=" font-bold text-center border-b pb-2 text-[22px] text-red-600">Багийн нийлбэр дүнгээр 1- р байр эзэлж шилжин явах цомын эзэд боллоо</h1>
+          </div>
+        </div>
 
+        <p className="text-center border-b pb-2 text-[20px] font-semibold">Үндэсний бичгийн баяр</p>
         <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
-          <p className=" text-center font-semibold text-lg">“ОУ-ын болон дотоодын олимпиад уралдаанд гаргасан амжилтаас"  </p>
-          <div className=" flex flex-col gap-2 items-center ">
-            <Image className=" rounded-xl" src={zurag14} width={300} alt="Шилдэг сургууль"/>
-            <p className=" text-center text-[12px]">“DENK CUP 2023” Жюү жицүгийн тэмцээн 🥉”Хүрэл медаль”</p>
-            <Image className=" rounded-xl" src={zurag15} width={300} alt="Шилдэг сургууль"/>
-            <p className=" text-center text-[12px]">“JKA MONGOLIA 2023” Каратэйгийн тэмцээн ”Мөнгөн медаль”</p></div> </div>
+          <div className=" flex flex-col gap-2  items-center">
+            <Image className=" rounded-xl" src={zurag13} width={300} alt="Шилдэг сургууль" />
+            <p className="text-center text-[20px] font-semibold text-blue-800">Танил эхээс “Зөв шударга уншихуй” <br /> уралдааны ахлах ангийн ангийн төрөлд</p>
+            <p className=" text-center text-[12px]">А.Намуундарь 3-р байр </p>
+            <p className="text-center text-[20px] font-semibold text-blue-800">Танил бус эхээс “Зөв шударга уншихуй”</p>
+            <p className=" text-center text-[12px]">А.Намуундарь 2-р байр </p>
+            <p className=" text-center text-[12px]">Б.Эрдэнэбулган 3-р байр </p>
+            <p className="text-center text-[20px] font-semibold text-blue-800">“Үсэглэлийн хаад” ахлах ангийн төрөлд </p>
+            <p className=" text-center text-[12px]">А.Намуундарь 2-р байр </p>
+            <p className=" text-center text-[12px]">Б.Эрдэнэбулган 3-р байр </p>
+            <p className="text-center text-[20px] font-semibold text-blue-800">Математикийн үг <br /> хэллэгийг англиар хэн сайн мэдэх вэ? </p>
+            <p className=" text-center text-[12px]">А.Намуундарь 1-р байр </p>
+          </div>
+        </div>
 
-
-            <p className="text-center border-b pb-2 text-[20px] font-semibold"> “Нийгмийн идэвх оролцоог дэмжих, хичээлээ гадуурх үйл ажиллагааг идэвхжүүлэх ажлын хүрээнд 11Б ангийн сурагчид нь нийт 11 клуб нээн идэвхтэй үйл ажиллагаа явуулж байна."  </p>
-
-             <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
-          <div className=" flex flex-col gap-2 items-center ">
-            <Image className=" rounded-xl" src={zurag16} width={300} alt="Шилдэг сургууль"/>
-            <p className=" text-center text-[12px]">Клубын зорилго нь: Хүний эрх хамгааллын талаар мэдлэг олгох үйл ажиллагаа явуулах .
-Удирдагч 11Б Аззаяа, Марселын </p>
-</div> </div>
-
-<div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
-          <div className=" flex flex-col gap-2 items-center ">
-          <Image className=" rounded-xl" src={zurag17} width={300} alt="Шилдэг сургууль"/>
-            <p className=" text-center text-[12px]">Клубын зорилго нь: Бүтээлч сэтгэлгээг хөгжүүлэх, цагийг үр бүтээлтэй өнгөрөөх 
-Удирдагч 11Б ангийн сурагч Ундармаа, Мөнхчимэг, Ану
-</p>
-</div> </div>
-
-<div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
-          <div className=" flex flex-col gap-2 items-center ">
+        <p className="text-center border-b pb-2 text-[20px] font-semibold">2025 а,б ангйн нэрэмжит гар бөмбөгийн тэмцээн </p>
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <div className=" flex flex-col gap-2  items-center">
+            <Image className=" rounded-xl" src={zurag14} width={300} alt="Шилдэг сургууль" />
+            <p className=" text-center text-[12px]">1-р баг Хүрэл медаль  </p>
+            <p className=" text-center text-[12px]">Шилдэг эмэгтэй тоглогчоор – Жинжиймаа</p>
+          </div>
+        </div>
         
-          <Image className=" rounded-xl" src={zurag18} width={300} alt="Шилдэг сургууль"/>
-            <p className=" text-center text-[12px]">Клубын зорилго нь: ургамлыг зөв арчлах, хайрлан хамгаалах мэдлэг ойлголт түгээх 
-Удирдагч 11Б ангийн сурагч Тэгшжаргал, Т.Төгөлдөр
-</p>
-</div> </div>
-
-<div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
-          <div className=" flex flex-col gap-2 items-center ">
-          <Image className=" rounded-xl" src={zurag19} width={300} alt="Шилдэг сургууль"/>
-            <p className=" text-center text-[12px]">Клубын зорилго нь: IT-гийн анхан шатны мэдлэгтэй болгох, код бичиж сурах 
-Удирдагч 11Б ангийн сурагч  Марселын, Амартүвшин</p>
-</div> </div>
-
-<div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
-          <div className=" flex flex-col gap-2 items-center ">
-          <Image className=" rounded-xl" src={zurag20} width={300} alt="Шилдэг сургууль"/>
-            <p className=" text-center text-[12px]">Клубын зорилго нь: Ярианы чадварыг дээшлүүлэх, Ielts  шалгалтанд бэлтгэхэд туслах Удирдагч 11Б ангийн сурагч Дөлгөөн , Билэгсайхан
-</p>
-</div> </div>
-
-<div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
-          <div className=" flex flex-col gap-2 items-center ">
-          <Image className=" rounded-xl" src={zurag21} width={300} alt="Шилдэг сургууль"/>
-            <p className=" text-center text-[12px]">Клубын зорилго нь: IT хичээлээр үзсэн мэдлэг ойлголтыг бататгах, клубуудын үйл ажиллагааны постер гаргахад туслах  
-Удирдагч 11Б ангийн сурагч Амартүвшин, Жинжиймаа
-
-</p>
-</div> </div>
-
-<div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
-          <div className=" flex flex-col gap-2 items-center ">
-          <Image className=" rounded-xl" src={zurag22} width={300} alt="Шилдэг сургууль"/>
-            <p className=" text-center text-[12px]">Клубын зорилго нь:Уншсан номынхоо тухай тэмдэглэл хөтлөж, номын ярилцага хийх Удирдагч 11Б ангийн сурагч Хулан, Эмүүжин 
-
-</p>
-</div> </div>
-
-<div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
-          <div className=" flex flex-col gap-2 items-center ">
-          <Image className=" rounded-xl" src={zurag23} width={300} alt="Шилдэг сургууль"/>
-            <p className=" text-center text-[12px]">Клубын зорилго нь: Монгол бичгээр уншиж, бичиж сурхад туслах 
-Удирдагч 11Б ангийн сурагч Энхзул, Баярмаа
-</p>
-</div> </div>
-
-<div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
-          <div className=" flex flex-col gap-2 items-center ">
-          <Image className=" rounded-xl" src={zurag24} width={300} alt="Шилдэг сургууль"/>
-            <p className=" text-center text-[12px]">Клубын зорилго нь: Англи хэл дээр кино үзэн үгийн сангаа баяжуулах, цагийг зугаатай өнгөрүүлэх 
-Удирдагч 11Б ангийн сурагч Өнөболд, Намуундарь
-</p>
-</div> </div>
-
-<div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
-          <div className=" flex flex-col gap-2 items-center ">
-          <Image className=" rounded-xl" src={zurag25} width={300} alt="Шилдэг сургууль"/>
-            <p className=" text-center text-[12px]">Клубын зорилго нь: Нийгмийн сайн сайхны төлөө сайн дурын үйл ажиллагаа явуулах, сурагчдын нийгмийн оролцоог нэмэгдүүлэх
-Удирдагч 11Б ангийн сурагч Эрдэнэбулган, Б.Төгөлдөр ангийн бүх сурагчид
-</p>
-</div> </div>
-
-<div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
-          <div className=" flex flex-col gap-2 items-center ">
-          <Image className=" rounded-xl" src={zurag26} width={300} alt="Шилдэг сургууль"/>
-            <p className=" text-center text-[12px]">Клубын зорилго нь МУЗН-ээс зохион байгуулж буй үйл ажиллагаанд сурагчдыг оролцуулах 
-Удирдагч 11Б ангийн сурагч Дөлгөөн, Хангарьд
-</p>
-</div> </div>
-
-<p className="text-center border-b pb-2 text-[20px] font-semibold"> Сургуульдаа санаачлан зохион байгуулсан ажлуудаас 
- </p>
-<div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
-          <div className=" flex flex-col gap-2 items-center ">
-          <Image className=" rounded-xl" src={zurag27} width={300} alt="Шилдэг сургууль"/>
-          <Image className=" rounded-xl" src={zurag28} width={300} alt="Шилдэг сургууль"/>
-          <Image className=" rounded-xl" src={zurag29} width={300} alt="Шилдэг сургууль"/>
-            <p className=" text-center text-[12px]">👉Сүүлийн үед хүүхэд залуусын дунд VAPE буюу электрон тамхины хэрэглээ бий болж түүнийг дагасан чимээгүй аюулууд газар авсаар байгаа билээ. Үүнтэй холбоотойгоор 11В ангийн  сурагч А.Тэгшжаргалын удирдан явуулдаг Биологийн клубийн сурагчид 7-12-р ангийн сурагчдад электрон тамхины эрүүл мэндэд учруулах 🤧хор уршгийг таниулах сургалтыг амжилттай зохион байгуулав.🙌.</p>
-</div> </div>
-
-<div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
-          <div className=" flex flex-col gap-2 items-center ">
-          <Image className=" rounded-xl" src={zurag30} width={300} alt="Шилдэг сургууль"/>
-          <Image className=" rounded-xl" src={zurag31} width={300} alt="Шилдэг сургууль"/>
-          <Image className=" rounded-xl" src={zurag32} width={300} alt="Шилдэг сургууль"/>
-          <Image className=" rounded-xl" src={zurag33} width={300} alt="Шилдэг сургууль"/>
-            <p className=" text-center text-[12px]">The Innovate“ 11-р ангийн сурагчдын удирдан явуулдаг клубуудын үйл ажиллагааг, үр дүнг харуулах, сурагчдын чөлөөт цагийг үр бүтээлтэй өнгөрүүлэх зорилго бүхий эвентийг амжилттай зохион байгууллаа. 1-12-р ангийн бүх сурагчид үйл ажиллагаанд идэвхтэй оролцсон. 🙌</p>
-</div> </div>
-
-<div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
-          <div className=" flex flex-col gap-2 items-center ">
-          <Image className=" rounded-xl" src={zurag34} width={300} alt="Шилдэг сургууль"/>
-          <Image className=" rounded-xl" src={zurag35} width={300} alt="Шилдэг сургууль"/>
-          <Image className=" rounded-xl" src={zurag36} width={300} alt="Шилдэг сургууль"/>
-            <p className=" text-center text-[12px]">Анги хамт олноороо санаачлан бага ангийн дүү нартаа зориулан “Электрон найз” сэдвийн хүрээнд цахилгаан хэрэгсэлтэй зөв ажиллах,аюулгүй ажиллагааны талаар мэдээлэл зөвлөмжийг хүргэв.Тус сургалтыг 1-5 ангийн нийт хэдэн бүлэгт оров. 🙌.
-</p>
-</div> </div>
-
-<div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
-<p className="text-center border-b pb-2 text-[20px] font-semibold"> OУ-ын IELTS шалгалтыг 13 сурагч амжилттай өглөө
- </p>
-          <div className=" flex flex-col gap-2 items-center ">
-          <Image className=" rounded-xl" src={zurag} width={300} alt="Шилдэг сургууль"/>
-</div> </div>
-
-
         <div className=" flex flex-col gap-2 w-full h-full items-center justify-center text-[50px] text-center font-semibold pb-16">
           <p className="">Анхаарал хандуулсанд баярлалаа</p>
         </div>
       </div>
-      <div  className=" p-5 bg-[#ff0000] text-white rounded-lg cursor-pointer hover:bg-[#4054ba] fixed bottom-2 right-2" onClick={handleAhlah} >
-        <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center">
-          <BackArrow/>
-          Буцах
-        </button>
+      <div className=" p-5 bg-[#ff0000] text-white rounded-lg cursor-pointer hover:bg-[#4054ba] fixed bottom-2 right-2" onClick={handleAhlah} >
+        <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center"> <BackArrow /> Буцах </button>
       </div>
-
     </div>
   );
 };
 
-export default Ahlah11b;
+export default Ahlah12b;
