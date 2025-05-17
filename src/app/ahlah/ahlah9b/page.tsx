@@ -61,7 +61,7 @@ const Ahlah9b = () => {
           <div className=" flex flex-col gap-2 ">
             <Image className=" rounded-xl" src={zurag5} width={300} alt="Шилдэг сургууль"/>
           </div>
-            <p className="text-center  text-[20px] font-semibold text-blue-800">Сурагч Э. Есүй-Үжин - тэргүүн байр</p>
+            <p className="text-center  text-[20px] font-semibold text-blue-800">Э. Есүй-Үжин</p>
             <p className="text-center text-[20px] font-semibold">HUGO гар зургийн улсын олимпиад тэргүүн байр </p>
             <p className="text-center text-[20px] font-semibold">Үндэсний бичиг "цэвэр бичигтэн" дэд байр</p>
         </div>

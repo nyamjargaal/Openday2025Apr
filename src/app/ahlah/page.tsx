@@ -12,7 +12,7 @@ const Ahlah = () => {
   const handlePushAhlah10a = () => { router.push("/ahlah/ahlah10a");};
   const handlePushAhlah11a = () => { router.push("/ahlah/ahlah11a");};
   const handlePushAhlah10b = () => { router.push("/ahlah/ahlah10b");};
-  const handlePushAhlah12a = () => { router.push("/ahlah/ahlah12a");};
+  const handlePushAhlah12a = () => { router.push("/ahlah/ahlah12a");}; 
   const handlePushAhlah12b = () => { router.push("/ahlah/ahlah12b");};
   const handleHomePage = () => { router.push("/");};
 

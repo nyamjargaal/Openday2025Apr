@@ -5,19 +5,7 @@ import { useRouter } from "next/navigation";
 import { BackArrow } from "@/assets/icons/backArrow";
 import zurag0 from "../../../assets/12B/0.png";
 import zurag1 from "../../../assets/12B/1.png";
-import zurag2 from "../../../assets/12B/2.png";
-import zurag3 from "../../../assets/12B/3.png";
-import zurag4 from "../../../assets/12B/4.png";
-import zurag5 from "../../../assets/12B/5.png";
-import zurag6 from "../../../assets/12B/6.png";
-import zurag7 from "../../../assets/12B/7.png";
-import zurag8 from "../../../assets/12B/8.png";
-import zurag9 from "../../../assets/12B/9.png";
-import zurag10 from "../../../assets/12B/10.png";
-import zurag11 from "../../../assets/12B/11.png";
-import zurag12 from "../../../assets/12B/12.png";
-import zurag13 from "../../../assets/12B/13.png";
-import zurag14 from "../../../assets/12B/14.png";
+
 
 const Ahlah9a = () => {
   const router = useRouter();
