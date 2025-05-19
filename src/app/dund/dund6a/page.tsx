@@ -45,8 +45,7 @@ const Dund6a = () => {
       <div className="flex flex-col gap-4">
         <h1 className="font-bold text-center border-b pb-2 text-[22px] text-red-600">Д.Ганцэцэг багштай 6A ангийн танилцуулга</h1>
         <div className="flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
-          <p className="text-center">8B анги нийт 24 суралцагчтай ба 11 эрэгтэй, 13 эмэгтэй</p>
-          <p className="text-center">Ангийн дарга Ц.Энэрэл </p>
+          <p className="text-center">6A анги нийт 24 суралцагчтай ба 11 эрэгтэй, 13 эмэгтэй</p>
           <Image className=" rounded-xl" src={zurag1} width={300} alt="Шилдэг сургууль" />
   
         </div>
@@ -54,15 +53,170 @@ const Dund6a = () => {
         <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
           <div className=" flex flex-col gap-2 ">
             <Image className=" rounded-xl" src={zurag2} width={300} alt="Шилдэг сургууль"/>
+            <Image className=" rounded-xl" src={zurag3} width={300} alt="Шилдэг сургууль"/>
           </div>
-            <p className="border-b pb-2 text-[20px] font-semibold"> Эрэгтэй </p>
-            <p className="text-center  text-[20px] font-semibold text-blue-800"> Байрнаас уртын харайлт </p>
-            <p className="text-center text-[20px] font-semibold"> Эрэгтэй төрөлд хүрэл медаль – Э.Амартүвшин </p>
-            <p className="text-center text-[20px] font-semibold"> Эмэгтэй төрөлд алтан медаль  - О.Баярмаа</p>
+          <p className="text-center  text-[20px] font-semibold text-blue-800">Олс таталтын төрөлд :<span className="text-red-700">“ДЭД” байр</span></p>
+          <div className=" flex flex-col gap-2 ">
+            <Image className=" rounded-xl" src={zurag4} width={300} alt="Шилдэг сургууль"/>
+          </div>
+          <p className="text-center  text-[20px] font-semibold text-blue-800">4х4 гүйлтийн төрөлд  :<span className="text-red-700">“Хүрэл” медал хүртсэн</span></p>
        
+          <div className=" flex flex-col gap-2 ">
+            <Image className=" rounded-xl" src={zurag5} width={300} alt="Шилдэг сургууль"/>
+          </div>
+          <p className="text-center  text-[20px] font-semibold text-blue-800">Холын зайн гүйлтийн ганцаарчилсан төрөлд   : Жаргалхүү<span className="text-red-700">“Мөнгө” медал хүртсэн</span></p>
+          
+          <div className=" flex flex-col gap-2 ">
+            <Image className=" rounded-xl" src={zurag6} width={300} alt="Шилдэг сургууль"/>
+          </div>
+          <p className="text-center  text-[20px] font-semibold text-blue-800">Холын зайн гүйлтийн ганцаарчилсан төрөлд   : Эрхжаргал<span className="text-red-700">“Хүрэл” медал хүртсэн</span></p>
+       
+          <div className=" flex flex-col gap-2 ">
+            <Image className=" rounded-xl" src={zurag7} width={300} alt="Шилдэг сургууль"/>
+          </div>
+          <p className="text-center  text-[20px] font-semibold text-blue-800">100-н метрийн гүйлтийн төрөлд    : Индра<span className="text-red-700">“Хүрэл” медал хүртсэн</span></p> 
         </div>
 
-  
+ 
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <div className=" flex flex-col gap-2 items-center ">
+            <Image className=" rounded-xl" src={zurag8} width={300} alt="Шилдэг сургууль"/>
+            <p className="text-center font-semibold">Эх түүхийн хичээлээрээ бид “Чингис хаан”-ы музейг анги хамт олноороо очиж үзсэн.</p>
+          </div>
+        </div>
+ 
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <div className=" flex flex-col gap-2 items-center ">
+            <Image className=" rounded-xl" src={zurag9} width={300} alt="Шилдэг сургууль"/>
+            <p className="text-center font-semibold">“Сүнсний баяр”-т анги хамт олноороо дүрд хувиран амжилттай сайн оролцлоо</p>
+          </div>
+        </div>
+
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <div className=" flex flex-col gap-2 items-center ">
+            <Image className=" rounded-xl" src={zurag10} width={300} alt="Шилдэг сургууль"/>
+            <p className="text-center font-semibold">Сүнсний баярын “Шилдэг дүр” хувиргалтаар сурагч Жаргалхүү шалгарлаа</p>
+          </div>
+        </div>
+
+        <p className="text-center border-b pb-2 text-[20px] font-semibold">Урлагийн их наадам</p>
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <div className=" flex flex-col gap-2 ">
+            <Image className=" rounded-xl" src={zurag11} width={300} alt="Шилдэг сургууль"/>
+            <Image className=" rounded-xl" src={zurag12} width={300} alt="Шилдэг сургууль"/>
+            <Image className=" rounded-xl" src={zurag13} width={300} alt="Шилдэг сургууль"/>
+            <Image className=" rounded-xl" src={zurag14} width={300} alt="Шилдэг сургууль"/>
+          </div>
+        </div>
+
+        <p className="text-center border-b pb-2 text-[20px] font-semibold">Сургуулийн аварга шалгаруулах сагсан бөмбөгийн тэмцээн</p>
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <div className=" flex flex-col gap-2 items-center ">
+            <Image className=" rounded-xl" src={zurag15} width={300} alt="Шилдэг сургууль"/>
+            <Image className=" rounded-xl" src={zurag16} width={300} alt="Шилдэг сургууль"/>
+            <p className="text-center font-semibold">Сургуулийн аварга шалгаруулах сагсан бөмбөгийн тэмцээнд охид, хөвгүүдийн баг амжилттай сайн оролцлоо</p>
+          </div>
+        </div>
+
+        <p className="text-center border-b pb-2 text-[20px] font-semibold">Пи тооны өдөр</p>
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <div className=" flex flex-col gap-2 items-center ">
+            <Image className=" rounded-xl" src={zurag17} width={300} alt="Шилдэг сургууль"/>
+            <Image className=" rounded-xl" src={zurag18} width={300} alt="Шилдэг сургууль"/>
+            <p className="text-center font-semibold">Пи тооны өдөрт зориулсан шатрын тэмцээнд сурагч А. Хүслэн, Т.Индра нар амжилттай оролцлоо</p>
+          </div>
+        </div>
+
+        <p className="text-center border-b pb-2 text-[20px] font-semibold">“Шатрын аварга” шалгаруулах тэмцээн</p>
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <div className=" flex flex-col gap-2 items-center ">
+            <Image className=" rounded-xl" src={zurag19} width={300} alt="Шилдэг сургууль"/>
+            <p className="text-center font-semibold">Сургуулийн  “Шатрын аварга” шалгаруулах тэмцээнд сурагч Үжингоо, Т.Мишээл, Эрхжаргал, Индра, Хүслэн нар амжилттай оролцлоо</p>
+          </div>
+        </div>
+
+   
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <div className=" flex flex-col gap-2 items-center ">
+            <Image className=" rounded-xl" src={zurag20} width={300} alt="Шилдэг сургууль"/>
+            <p className="text-center font-semibold">Олон улсын математикийн олимпиадад сурагч Тэргэл, Жаргалхүү, Мөнхтүшиг, Аялгуу, Маргад, Даваажаргал нар өөрийгөө сорьж амжилттай оролцсон</p>
+          </div>
+        </div>
+
+
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <div className=" flex flex-col gap-2 items-center ">
+            <Image className=" rounded-xl" src={zurag21} width={300} alt="Шилдэг сургууль"/>
+            <p className="text-center font-semibold">Олон улсын байгалийн ухааны “Vanda” олимпиадад сурагч Гүнбилэг, Энхжин, Цэлмэг нар өөрийгөө сорьж амжилттай оролцов.</p>
+          </div>
+        </div>
+
+
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <div className=" flex flex-col gap-2 items-center ">
+            <Image className=" rounded-xl" src={zurag22} width={300} alt="Шилдэг сургууль"/>
+            <p className="text-center font-semibold">Олон улсын байгалийн ухааны “Vanda” олимпиадад сурагч Гүнбилэг, Энхжин, Цэлмэг нар өөрийгөө сорьж амжилттай оролцов.</p>
+          </div>
+        </div>
+
+
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <div className=" flex flex-col gap-2 items-center ">
+            <Image className=" rounded-xl" src={zurag23} width={300} alt="Шилдэг сургууль"/>
+            <p className="text-center font-semibold">Олон улсын математикийн олимпиадад сурагч  Жаргалхүү, Маргад, С.Мишээл, Цэлмэг нар өөрийгөө сорьж амжилттай оролцсон</p>
+          </div>
+        </div>
+
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <div className=" flex flex-col gap-2 items-center ">
+            <Image className=" rounded-xl" src={zurag24} width={300} alt="Шилдэг сургууль"/>
+            <p className="text-center font-semibold">Hugo and color гар зургийн уралдаанд сурагч  Жаргалхүү, С.Мишээл, Даваажаргал, Тэнүүн, Индра нар өөрийгөө сорьж амжилттай оролцсон.</p>
+          </div>
+        </div>
+
+        <p className="text-center border-b pb-2 text-[20px] font-semibold">Индра</p>
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <div className=" flex flex-col gap-2 items-center ">
+            <Image className=" rounded-xl" src={zurag25} width={300} alt="Шилдэг сургууль"/>
+            <p className="text-center font-semibold">“Ирээдүйн одод” цомын тэмцээнд I байр /таеквондо/</p>
+            <p className="text-center font-semibold">Сургуулийн урлагийн их наадмын хөгжмийн төрөлд II байр</p>
+            <p className="text-center font-semibold">TIA cup тэмцээнд I байр /таеквондо/</p>
+            <p className="text-center font-semibold">Эв нэгдэл cup цомын тэмцээний тулаан төрөлд I байр /таеквондо/</p>
+            <p className="text-center font-semibold">“Таеквондо пүмсэ” 2025 аварга шалгаруулах тэмцээний IIIбайрын шагналыг тус тус хүртсэн</p>
+          </div>
+        </div>
+
+        <p className="text-center border-b pb-2 text-[20px] font-semibold">Цэлмэг</p>
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <div className=" flex flex-col gap-2 items-center ">
+            <Image className=" rounded-xl" src={zurag26} width={300} alt="Шилдэг сургууль"/>
+            <p className="text-center font-semibold">Монголын үндэсний бичиг үсгийн баярыг тохиолдуулан зохион байгуулагдсан “Сайхан бичигтэн” уралдаанд сурагч Цэлмэг амжилттай оролцож III байр эзлэв </p>
+          </div>
+        </div>
+
+        <p className="text-center border-b pb-2 text-[20px] font-semibold">Даваажаргал</p>
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <div className=" flex flex-col gap-2 items-center ">
+            <Image className=" rounded-xl" src={zurag27} width={300} alt="Шилдэг сургууль"/>
+            <p className="text-center font-semibold">HUGO and COLOR гар зургийн улсын олимпиадуудад амжилттай оролцож “Авьяаслаг хүүхэд” V зэргийн батламж, “Бүтээлч хүүхэд” V зэргийн батламжаар тус тус шагнагдсан</p>
+          </div>
+        </div>
+
+        <p className="text-center border-b pb-2 text-[20px] font-semibold">Хүслэн</p>
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <div className=" flex flex-col gap-2 items-center ">
+            <Image className=" rounded-xl" src={zurag28} width={300} alt="Шилдэг сургууль"/>
+            <p className="text-center font-semibold">“Пи тоо”-ны өдөрт зориулан зохион байгуулагдсан шатрын тэмцээнд III байрын шагналыг хүртэв.</p>
+          </div>
+        </div>
+
+
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <div className=" flex flex-col gap-2 items-center ">
+            <Image className=" rounded-xl" src={zurag29} width={300} alt="Шилдэг сургууль"/>
+            <p className="text-center font-semibold">Хаврын аялалт хичээлд анги хамт олноороо амжилттай хамрагдлаа</p>
+          </div>
+        </div>
 
 
         <div className=" flex flex-col gap-2 w-full h-full items-center justify-center text-[50px] text-center font-semibold pb-16">

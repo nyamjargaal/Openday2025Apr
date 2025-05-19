@@ -95,7 +95,7 @@ export default function Home() {
 
         <div className=" p-5 bg-[#222f6e] text-white rounded-lg cursor-pointer hover:bg-[#4054ba]" onClick={handleAmjilt}>
           <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
-            Нэгдлүүдийн мэдээлэл
+           Багш нар
           </button>    
         </div>
 
