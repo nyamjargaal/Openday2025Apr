@@ -12,6 +12,7 @@ import zurag6 from "../../../assets/2b/6.png";
 import zurag7 from "../../../assets/2b/7.png";
 import zurag8 from "../../../assets/2b/8.png";
 import zurag9 from "../../../assets/2b/9.png";
+import zurag10 from "../../../assets/2b/10.png";
 
 
 
@@ -28,21 +29,58 @@ const Baga2b = () => {
         <h1 className="font-bold text-center border-b pb-2 text-[22px] text-red-600">З.Нямаа багштай 2B ангийн танилцуулга</h1>
         <div className="flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
           <p className="text-center">2B анги нийт 22 суралцагчтай ба 10 эрэгтэй, 12 эмэгтэй</p>
-          <p className="text-center">Ангийн дарга Г.Содбилэг </p>
           <Image className=" rounded-xl" src={zurag1} width={300} alt="Шилдэг сургууль" />
-  
         </div>
+
         <p className="text-center border-b pb-2 text-[20px] font-semibold">Сургуулийн спортын наадам</p>
         <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
           <div className=" flex flex-col gap-2 ">
-            <Image className=" rounded-xl" src={zurag1} width={300} alt="Шилдэг сургууль"/>
+            <Image className=" rounded-xl" src={zurag2} width={300} alt="Шилдэг сургууль"/>
           </div>
-            <p className="border-b pb-2 text-[20px] font-semibold"> Эрэгтэй </p>
-            <p className="text-center  text-[20px] font-semibold text-blue-800"> Байрнаас уртын харайлт </p>
-            <p className="text-center text-[20px] font-semibold"> Эрэгтэй төрөлд хүрэл медаль – Э.Амартүвшин </p>
-            <p className="text-center text-[20px] font-semibold"> Эмэгтэй төрөлд алтан медаль  - О.Баярмаа</p>
-       
+            <p className="text-center text-[20px] font-semibold"> Олс таталт төрөлд  3 – р байр </p>
         </div>
+
+        <p className="text-center border-b pb-2 text-[20px] font-semibold">Урлагийн наадам </p>
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <div className=" flex flex-col gap-2 ">
+            <Image className=" rounded-xl" src={zurag3} width={300} alt="Шилдэг сургууль"/>
+          </div>
+            <p className="text-center text-[20px] font-semibold">“Тусгай үзүүлбэр” 3 – р байр </p>
+        </div>
+
+        <p className="text-center border-b pb-2 text-[20px] font-semibold"> “Halloween day”   </p>
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <div className=" flex flex-col gap-2 ">
+            <Image className=" rounded-xl" src={zurag4} width={300} alt="Шилдэг сургууль"/>
+          </div>
+        </div>
+
+        <p className="text-center border-b pb-2 text-[20px] font-semibold"> Оны “Шилдэг сурагч </p>
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <div className=" flex flex-col gap-2 ">
+            <Image className=" rounded-xl" src={zurag5} width={300} alt="Шилдэг сургууль"/>
+            <p className="text-center text-[20px] font-semibold">М. Мэргэн </p>
+          </div>
+        </div>
+
+  
+          <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <div className=" flex flex-col gap-2 ">
+            <Image className=" rounded-xl" src={zurag10} width={300} alt="Шилдэг сургууль"/>
+            <p className="text-center text-[20px] font-semibold">М. Мэргэн </p>
+          </div>
+        </div>
+        
+        <p className="text-center border-b pb-2 text-[20px] font-semibold"> Бидний жаргалтай мөчүүд: </p>
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <div className=" flex flex-col gap-2 ">
+            <Image className=" rounded-xl" src={zurag6} width={300} alt="Шилдэг сургууль"/>
+            <Image className=" rounded-xl" src={zurag7} width={300} alt="Шилдэг сургууль"/>
+            <Image className=" rounded-xl" src={zurag8} width={300} alt="Шилдэг сургууль"/>
+            <p className="text-center text-[20px] font-semibold">М. Мэргэн </p>
+          </div>
+        </div>
+
 
   
 

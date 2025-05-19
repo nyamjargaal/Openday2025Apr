@@ -11,8 +11,9 @@ export default function Home() {
   const handleHomePage = () => {router.push("/");};
   const handleTetgeleg = () => {router.push("/tetgeleg");};
   const handleInternational = () => {router.push("/international");};
-  const handleAmjilt = () => {router.push("/success");};
+  const handleTeachers = () => {router.push("/teachers");};
   const handleOlimpiad = () => {router.push("/olimpiad");};
+  const handleDuguilan = () => {router.push("/duguilan");};
 
   return (
     <div className=" flex flex-col w-screen h-screen items-center p-8 gap-10 ">
@@ -46,13 +47,13 @@ export default function Home() {
           </button>    
         </div>
 
-        <div className=" p-5 bg-[#222f6e] text-white rounded-lg cursor-pointer hover:bg-[#4054ba]" onClick={handleAmjilt}>
+        <div className=" p-5 bg-[#222f6e] text-white rounded-lg cursor-pointer hover:bg-[#4054ba]" onClick={handleTeachers}>
           <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
            Багш нар
           </button>    
         </div>
 
-        <div className=" p-5 bg-[#222f6e] text-white rounded-lg cursor-pointer hover:bg-[#4054ba]" onClick={handleAmjilt}>
+        <div className=" p-5 bg-[#222f6e] text-white rounded-lg cursor-pointer hover:bg-[#4054ba]" onClick={handleDuguilan}>
           <button className=" flex m-auto rounded-3xl font-semibold h-[10px] items-center ">
            Дугуйлан секц
           </button>    
