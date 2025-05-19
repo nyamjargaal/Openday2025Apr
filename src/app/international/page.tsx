@@ -20,7 +20,6 @@ const International = () => {
     router.push("/");
   };
 
-
   return (
     <div className=" flex flex-col w-screen h-screen items-center p-4 gap-5">
       <Image src={shildeg} width={200}  alt="Шилдэг сургууль" onClick={handleHomePage} />
@@ -34,7 +33,6 @@ const International = () => {
       <p className=" text-center">Vanda 2024 - 2025</p>
       <Image className=" rounded-xl" src={slide4} width={300} alt="Шилдэг сургууль" />
       <Image className=" rounded-xl" src={slide5} width={300} alt="Шилдэг сургууль" />
-
     
         <div className=" flex flex-col gap-2 w-full h-full items-center justify-center text-[50px] text-center font-semibold pb-16">
           <p className="">Анхаарал хандуулсанд баярлалаа</p>
