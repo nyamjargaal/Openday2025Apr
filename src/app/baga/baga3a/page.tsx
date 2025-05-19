@@ -31,18 +31,82 @@ const Baga3a = () => {
         <div className="flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
           <p className="text-center">3А анги нийт 20 суралцагчтай ба 9 эрэгтэй, 11 эмэгтэй</p>
           <Image className=" rounded-xl" src={zurag1} width={300} alt="Шилдэг сургууль" />
-  
         </div>
-        <p className="text-center border-b pb-2 text-[20px] font-semibold">Сургуулийн спортын наадам</p>
+
+        <p className="text-center border-b pb-2 text-[20px] font-semibold">Босхол</p>
         <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
           <div className=" flex flex-col gap-2 ">
-            <Image className=" rounded-xl" src={zurag1} width={300} alt="Шилдэг сургууль"/>
+            <Image className=" rounded-xl" src={zurag2} width={300} alt="Шилдэг сургууль"/>
           </div>
-            <p className="border-b pb-2 text-[20px] font-semibold"> Эрэгтэй </p>
-            <p className="text-center  text-[20px] font-semibold text-blue-800"> Байрнаас уртын харайлт </p>
-            <p className="text-center text-[20px] font-semibold"> Эрэгтэй төрөлд хүрэл медаль – Э.Амартүвшин </p>
-            <p className="text-center text-[20px] font-semibold"> Эмэгтэй төрөлд алтан медаль  - О.Баярмаа</p>
-       
+          <p className="text-center">2024-2025 оны хичээлийн жилийн “АМО” олимпиадын Мөнгөн медальт </p>       
+          <p className="text-center">ОУ-ын “SASMO” олимпиадын “Алтан медальт”</p>       
+        </div>
+
+        <p className="text-center border-b pb-2 text-[20px] font-semibold">Т.Есөгүн</p>
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <div className=" flex flex-col gap-2 ">
+            <Image className=" rounded-xl" src={zurag3} width={300} alt="Шилдэг сургууль"/>
+          </div>
+          <p className="text-center">2024-2025 оны хичээлийн жилийн “АМО” олимпиадын Хүрэл медальт </p>       
+        </div>
+
+        <p className="text-center border-b pb-2 text-[20px] font-semibold">Ц.Аминзул</p>
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <div className=" flex flex-col gap-2 ">
+            <Image className=" rounded-xl" src={zurag4} width={300} alt="Шилдэг сургууль"/>
+          </div>
+          <p className="text-center">2024-2025 оны хичээлийн жилийн “АМО” олимпиадын Хүрэл медальт </p>       
+        </div>
+
+        <p className="text-center border-b pb-2 text-[20px] font-semibold">2024-2025 оны “АМО” олимпиадын шагналт байр</p>
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <div className=" flex flex-col gap-2 ">
+            <Image className=" rounded-xl" src={zurag5} width={300} alt="Шилдэг сургууль"/>
+          </div>
+          <p className="text-center">2024-2025 оны хичээлийн жилийн “АМО” олимпиадын Хүрэл  медальт, уртын харайлтын Хүрэл медальт</p>       
+        </div>
+
+        <p className="text-center border-b pb-2 text-[20px] font-semibold">Б.Сонор</p>
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <div className=" flex flex-col gap-2 ">
+            <Image className=" rounded-xl" src={zurag6} width={300} alt="Шилдэг сургууль"/>
+          </div>
+          <p className="text-center">3а ангийн сурагч:  Босхол -Алтан медаль
+О.Ананд – Мөнгөн медаль
+Ц.Аминзул – Хүрэл медаль
+Т.Есөгүн     - Хүрэл медаль
+Б.Сонор -  Хүрэл медаль
+Ш.Амина – Хүрэл медаль
+</p>       
+        </div>
+
+        <p className="text-center border-b pb-2 text-[20px] font-semibold">Англи хэлний тэмцээн</p>
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <div className=" flex flex-col gap-2 ">
+            <Image className=" rounded-xl" src={zurag7} width={300} alt="Шилдэг сургууль"/>
+            <Image className=" rounded-xl" src={zurag8} width={300} alt="Шилдэг сургууль"/>
+          </div>
+          <p className="text-center">           1-р байр: Ш.Амина </p>       
+          <p className="text-center">   2-р байр: Ж.Үүрийнгэгээ</p>       
+          <p className="text-center">3-р байр: Ө.Мишээл</p>       
+        </div>
+        
+
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <div className=" flex flex-col gap-2 ">
+            <Image className=" rounded-xl" src={zurag9} width={300} alt="Шилдэг сургууль"/>
+          </div>
+          <p className="text-center">  2024-2025 оны хичээлийн жилийн урлагийн үзлэг Хамтлаг бүжиг 3-р байр</p>       
+     
+        </div>
+
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <div className=" flex flex-col gap-2 ">
+            <Image className=" rounded-xl" src={zurag11} width={300} alt="Шилдэг сургууль"/>
+            <Image className=" rounded-xl" src={zurag12} width={300} alt="Шилдэг сургууль"/>
+          </div>
+          <p className="text-center">ОУ-ын “SASMO” олимпиадын тусгай байрын шангалт 3а ангийн сурагч Ц.Аминзул         Ө.Мишээл </p>       
+     
         </div>
 
   

@@ -19,19 +19,21 @@ const Baga4b = () => {
         <h1 className="font-bold text-center border-b pb-2 text-[22px] text-red-600">Р.Жавзандулам  4B ангийн танилцуулга</h1>
         <div className="flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
           <p className="text-center">4B анги нийт 21 суралцагчтай ба 10 эрэгтэй, 11 эмэгтэй</p>
-          <p className="text-center">Ангийн дарга Ц.Энэрэл </p>
           <Image className=" rounded-xl" src={zurag1} width={300} alt="Шилдэг сургууль" />
   
         </div>
         <p className="text-center border-b pb-2 text-[20px] font-semibold">Сургуулийн спортын наадам</p>
         <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
           <div className=" flex flex-col gap-2 ">
-            <Image className=" rounded-xl" src={zurag1} width={300} alt="Шилдэг сургууль"/>
+            <Image className=" rounded-xl" src={zurag2} width={300} alt="Шилдэг сургууль"/>
           </div>
-            <p className="border-b pb-2 text-[20px] font-semibold"> Эрэгтэй </p>
-            <p className="text-center  text-[20px] font-semibold text-blue-800"> Байрнаас уртын харайлт </p>
-            <p className="text-center text-[20px] font-semibold"> Эрэгтэй төрөлд хүрэл медаль – Э.Амартүвшин </p>
-            <p className="text-center text-[20px] font-semibold"> Эмэгтэй төрөлд алтан медаль  - О.Баярмаа</p>
+            <p className="text-center  text-[20px] font-semibold text-blue-800">Суниалт</p>
+            <p className="text-center text-[20px] font-semibold"> А.Одмаа - Алтан медаль </p>
+            <p className="text-center  text-[20px] font-semibold text-blue-800">Суниалт</p>
+            <p className="text-center text-[20px] font-semibold"> Б.Батжаргал - мөнгөн медаль </p>
+            <p className="text-center  text-[20px] font-semibold text-blue-800">Уртын харайлтад</p>
+            <p className="text-center text-[20px] font-semibold"> З.Сувдансондор  - Алтан медаль </p>
+
        
         </div>
 

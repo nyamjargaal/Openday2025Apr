@@ -9,6 +9,7 @@ import zurag3 from "../../../assets/3b/3.png";
 import zurag4 from "../../../assets/3b/4.png";
 import zurag5 from "../../../assets/3b/5.png";
 import zurag6 from "../../../assets/3b/6.png";
+import zurag7 from "../../../assets/3b/7.png";
 
 
 
@@ -27,20 +28,50 @@ const Baga3b = () => {
           <p className="text-center">3B анги нийт 19 суралцагчтай ба 7 эрэгтэй, 12 эмэгтэй</p>
           <p className="text-center">Ангийн дарга Г.Содбилэг </p>
           <Image className=" rounded-xl" src={zurag1} width={300} alt="Шилдэг сургууль" />
-  
-        </div>
-        <p className="text-center border-b pb-2 text-[20px] font-semibold">Сургуулийн спортын наадам</p>
-        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
-          <div className=" flex flex-col gap-2 ">
-            <Image className=" rounded-xl" src={zurag1} width={300} alt="Шилдэг сургууль"/>
-          </div>
-            <p className="border-b pb-2 text-[20px] font-semibold"> Эрэгтэй </p>
-            <p className="text-center  text-[20px] font-semibold text-blue-800"> Байрнаас уртын харайлт </p>
-            <p className="text-center text-[20px] font-semibold"> Эрэгтэй төрөлд хүрэл медаль – Э.Амартүвшин </p>
-            <p className="text-center text-[20px] font-semibold"> Эмэгтэй төрөлд алтан медаль  - О.Баярмаа</p>
-       
         </div>
 
+        <p className="text-center border-b pb-2 text-[20px] font-semibold">АМО</p>
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <div className=" flex flex-col gap-2 ">
+            <Image className=" rounded-xl" src={zurag2} width={300} alt="Шилдэг сургууль"/>
+          </div>
+            <p className="text-center">Б.Амараа мөнгөн медаль, Б.Мишээл хүрэл медаль хүртлээ. </p>  
+        </div>
+
+        <p className="text-center border-b pb-2 text-[20px] font-semibold">Sasmo</p>
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <div className=" flex flex-col gap-2 ">
+            <Image className=" rounded-xl" src={zurag7} width={300} alt="Шилдэг сургууль"/>
+          </div>
+        </div>
+
+        <p className="text-center border-b pb-2 text-[20px] font-semibold">Спортын наадам</p>
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <div className=" flex flex-col gap-2 ">
+            <Image className=" rounded-xl" src={zurag3} width={300} alt="Шилдэг сургууль"/>
+          </div>
+            <p className="text-center">Олс таталт</p>  
+            <p className="text-center">3B ангийн сурагчид түрүүлж  ”Мөнгөн медаль”</p>  
+          <div className=" flex flex-col gap-2 ">
+            <Image className=" rounded-xl" src={zurag4} width={300} alt="Шилдэг сургууль"/>
+          </div>
+            <p className="text-center">Гар дээр суниалт</p>  
+            <p className="text-center">3B ангийн сурагч А. Нандин ”Алтан медаль”</p>  
+        </div>
+  
+
+        <p className="text-center border-b pb-2 text-[20px] font-semibold">Урлагийн наадам</p>
+        <div className=" flex flex-col items-center gap-2 p-2 border-r-4 border-r-sky-900 border-b-4 border-b-red-600 border-l-red-600 border-l-4 border-t-4 border-t-sky-800 rounded-2xl">
+          <div className=" flex flex-col gap-2 ">
+            <Image className=" rounded-xl" src={zurag5} width={300} alt="Шилдэг сургууль"/>
+          </div>
+            <p className="text-center">2024-2025 оны “Урлагийн наадам”-ийн “Гоцлол дуу” төрөлд 3B ангийн Б.Өүлэн  ”Мөнгөн медаль” хүртлээ. </p>  
+            <p className="text-center">2024-2025 оны “Урлагийн наадам”-ийн “Гоцлол бүжиг” төрөлд 3B ангийн Б.Эгшиглэн  ”Мөнгөн медаль” хүртлээ.</p>  
+          <div className=" flex flex-col gap-2 ">
+            <Image className=" rounded-xl" src={zurag6} width={300} alt="Шилдэг сургууль"/>
+          </div>
+            <p className="text-center">Dana's бүжгийн тэмцээний алтан медальт сурагч П. Ундармаа</p>  
+        </div>
   
 
 
